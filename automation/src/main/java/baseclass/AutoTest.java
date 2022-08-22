@@ -12,6 +12,7 @@ public class AutoTest {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		System.out.println("open the make my trip website");
 		driver.get("https://www.makemytrip.com/");
 		driver.close();
 	}
