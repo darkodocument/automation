@@ -13,6 +13,7 @@ public class AutoTest {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		System.out.println("open the make my trip website");
+		System.out.println("edited in the git hub");
 		driver.get("https://www.makemytrip.com/");
 		driver.close();
 	}
